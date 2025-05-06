@@ -93,9 +93,10 @@ header h1 {
  nav ul.nav li:hover {
 	 background-color: rgba(20, 40, 40, 1.0);
 }
- nav ul.nav li:hover > ul {
+ nav ul.nav li.active > ul {
 	 display: block;
-	 width: 300px;
+	 width: 250px;
+	 font-size: 15px;
 }
  nav ul.nav li > ul > li:hover {
 	 background-color: rgba(30, 50, 50, 1.0);
@@ -129,7 +130,7 @@ header h1 {
 	 color: rgba(0, 123, 182, 1.0);
 }
  nav:hover {
-	 width: 250px;
+	 width: 300px;
 }
  #description {
 	 color: rgba(40, 60, 60, 1.0);
