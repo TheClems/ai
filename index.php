@@ -120,5 +120,6 @@ require_once 'includes/config.php';
         <p>&copy; 2025 Mini Génie. Tous droits réservés.</p>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
