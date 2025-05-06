@@ -12,28 +12,101 @@ require_once 'includes/config.php';
 <body>
     <nav>
         <ul class="nav">
-        <li><a href="index.php"><span class="icon entypo-home"></span>Home</a></li>
-        <li><a href="#"><span class="icon entypo-user"></span>about</a></li>
-        <li><a href="#"><span class="icon entypo-book"></span>blog</a></li>
-        <li>
-          <a href="#"><span class="icon entypo-star"></span>features</a>
-          <ul>
-            <li><a href="#">feature 1</a></li>
-            <li><a href="#">feature 2</a></li>
-            <li><a href="#">feature 3</a></li>
-            <li><a href="#">feature 4</a></li>
-            <li><a href="#">feature 5</a></li>
-            <li><a href="#">feature 6</a></li>
-          </ul>
-        </li>
-        <li><a href="login.php"><span class="icon entypo-mail"></span>Login</a></li>
-        <li><a href="register.php"><span class="icon entypo-key"></span>Register</a></li>
-        </ul>
-        <ul class="soc">
-        <li><a href="#"><span class="entypo-facebook-circled"></span></a></li>
-        <li><a href="#"><span class="entypo-twitter-circled"></span></a></li>
-        <li><a href="#"><span class="entypo-gplus-circled"></span></a></li>
-        <li><a href="#"><span class="entypo-linkedin-circled"></span></a></li>
+            <li><a href="index.php"><span class="icon entypo-home"></span>Home</a></li>
+            
+            <li>
+                <a href="#"><span class="icon entypo-star"></span>Workspace</a>
+                <ul>
+                    <li><a href="#">Shared Zone</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Brand Voice List</a></li>
+                    <li><a href="#">Prompt List</a></li>
+                    <li><a href="#">Tag List</a></li>
+                    <li><a href="#">Asset List</a></li>
+                </ul>
+            </li>
+
+            <li><a href="chat.php"><span class="icon entypo-mail"></span>Multi AI Chat</a></li>
+
+            <li>
+                <a href="#"><span class="icon entypo-star"></span>AI for Writing</a>
+                <ul>
+                    <li><a href="#">Keyword Research</a></li>
+                    <li><a href="#">Content Generator</a></li>
+                    <li><a href="#">Rewriter</a></li>
+                    <li><a href="#">Content Expander</a></li>
+                    <li><a href="#">Content Shortener</a></li>
+                    <li><a href="#">Content Translator</a></li>
+                    <li><a href="#">Content Detector</a></li>
+                    <li><a href="#">Paraphraser</a></li>
+                    <li><a href="#">Summarizer</a></li>
+                    <li><a href="#">Grammar Checker</a></li>
+                </ul>
+            </li>
+            
+            <li>
+                <a href="#"><span class="icon entypo-star"></span>AI for Image</a>
+                <ul>
+                    <li><a href="#">Chat with Image</a></li>
+                    <li><a href="#">Image Generator</a></li>
+                    <li><a href="#">Image to prompt</a></li>
+                    <li><a href="#">Image Variator</a></li>
+                    <li><a href="#">Image Upscaler</a></li>
+                    <li><a href="#">Image Extender</a></li>
+                    <li><a href="#">Background Remover</a></li>
+                    <li><a href="#">Background Replacer</a></li>
+                    <li><a href="#">Text Remover</a></li>
+                    <li><a href="#">Object Remover</a></li>
+                    <li><a href="#">Search and Replace</a></li>
+                    <li><a href="#">Image Mask Editor</a></li>
+                    <li><a href="#">Image Text Editor</a></li>
+                    <li><a href="#">Face Swapper</a></li>
+                    <li><a href="#">3D Image Generator</a></li>
+                    <li><a href="#">Sketch to Image</a></li>
+                </ul>
+            </li>
+            
+            <li>
+                <a href="#"><span class="icon entypo-star"></span>AI for Document</a>
+                <ul>
+                    <li><a href="#">Multi Doc Chat</a></li>
+                    <li><a href="#">Document Translator</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"><span class="icon entypo-star"></span>AI for Audio</a>
+                <ul>
+                    <li><a href="#">Text to Speech</a></li>
+                    <li><a href="#">Music Generator</a></li>
+                    <li><a href="#">Speech to Text</a></li>
+                    <li><a href="#">Voice Changer</a></li>
+                    <li><a href="#">Audio Translator</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"><span class="icon entypo-star"></span>AI for Video</a>
+                <ul>
+                    <li><a href="#">Text to Video</a></li>
+                    <li><a href="#">Image to Video</a></li>
+                    <li><a href="#">Youtube Summarizer</a></li>
+                    <li><a href="#">Youtube Transcriber</a></li>
+                    <li><a href="#">Youtube Translator</a></li>
+                    <li><a href="#">Chat with Youtube Video</a></li>
+                    <li><a href="#">Captions Generator</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"><span class="icon entypo-star"></span>AI for Code</a>
+                <ul>
+                    <li><a href="#">Code Generator</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="login.php"><span class="icon entypo-mail"></span>Login</a></li>
+            <li><a href="register.php"><span class="icon entypo-key"></span>Register</a></li>
         </ul>
     </nav>
     <header>
