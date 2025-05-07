@@ -6,7 +6,7 @@ require_once 'includes/config.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MG - Accueil</title>
+    <title>OneTap AI - Accueil</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,9 +25,9 @@ require_once 'includes/config.php';
                     <li><a href="#">Asset List</a></li>
                 </ul>
             </li>
-
+    
             <li><a href="chat.php"><span class="icon entypo-mail"></span>Multi AI Chat</a></li>
-
+    
             <li>
                 <a href="#"><span class="icon entypo-star"></span>AI for Writing</a>
                 <ul>
@@ -73,7 +73,7 @@ require_once 'includes/config.php';
                     <li><a href="#">Document Translator</a></li>
                 </ul>
             </li>
-
+    
             <li>
                 <a href="#"><span class="icon entypo-star"></span>AI for Audio</a>
                 <ul>
@@ -84,7 +84,7 @@ require_once 'includes/config.php';
                     <li><a href="#">Audio Translator</a></li>
                 </ul>
             </li>
-
+    
             <li>
                 <a href="#"><span class="icon entypo-star"></span>AI for Video</a>
                 <ul>
@@ -97,7 +97,7 @@ require_once 'includes/config.php';
                     <li><a href="#">Captions Generator</a></li>
                 </ul>
             </li>
-
+    
             <li>
                 <a href="#"><span class="icon entypo-star"></span>AI for Code</a>
                 <ul>
@@ -109,16 +109,18 @@ require_once 'includes/config.php';
             <li><a href="register.php"><span class="icon entypo-key"></span>Register</a></li>
         </ul>
     </nav>
-    <header>
-        <h1>Bienvenue sur Mini Génie</h1>
-    </header>
-    <main>
-        <h2>Découvrez notre plateforme de chat IA</h2>
-        <p>Inscrivez-vous dès maintenant pour commencer à discuter avec nos IA !</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 Mini Génie. Tous droits réservés.</p>
-    </footer>
+    <div class="content">
+        <header>
+            <h1>Welcome to OneTap AI</h1>
+        </header>
+        <main>
+            <h2>Discover our AI chat platform</h2>
+            <p>Register now to start chatting with our AI!</p>
+        </main>
+        <footer>
+            <p>&copy; 2025 OneTap AI. All rights reserved.</p>
+        </footer>
+    </div>
     <script src="js/main.js"></script>
     <script src="js/menu.js"></script>
 </body>
